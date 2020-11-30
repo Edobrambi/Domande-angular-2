@@ -1,0 +1,7 @@
+1) name: string;
+2) constructor() { 
+    this.name = 'Felipe'; // setta il nome nel costruttore
+  }
+3)è una funzione chiamata ogni volta che creiamo nuove istanze
+4)viene creata con il tag personalizzato
+5)user-item proprietà del nome: {{nome}}

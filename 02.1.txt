@@ -1,0 +1,24 @@
+1)nomevettore: names:string
+2)si riempe mettendo le parentesi []
+3a)per creare una lista
+3b) dice che vogliamo usare la direttiva ngFor per questo attributo
+3c)è un elemento di una pagina web
+3d)serve per fare un ciclo con tutti gli elementi del vettore
+names è il vettore
+let name è il riferimento
+3e) la variabile name
+4) <li *ngFor="let c of cars"></li>
+
+1a)è un modo per trasmettere i dati al componente figlio.
+1b)import{Input}
+1c)@Input nomevariabile: tipo variabile
+
+2)con il decoratore input
+
+3)<ul>
+  <li *ngFor="let bu of bravo">
+    <app-user-gionny [pupa]="bu">
+    </app-user-gionny>
+  </li>
+</ul>
+
